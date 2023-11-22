@@ -1,0 +1,44 @@
+.footer-wrapper
+{
+    background-color: #0B2261;
+    text-align: center;
+    color: #fff;
+}
+
+.footer-wropper
+{
+    display: flex;
+    justify-content: center;
+}
+
+.header-txt
+{
+    border-bottom: 1px solid #fff;
+    padding: 20px 0;
+}
+
+.phone-place
+{
+    display: flex;
+    margin-top: 20px;
+}
+
+.phone-numbers
+{
+    padding-left: 60px;
+}
+
+.location-place
+{
+    display: flex;
+}
+
+.location-header
+{
+    margin-right: 49px;
+}
+
+.footer-end-txt
+{
+    margin-top: 30px;
+}

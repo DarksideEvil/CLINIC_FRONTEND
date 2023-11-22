@@ -1,0 +1,100 @@
+*
+{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scrollbar-width: thin;
+  scrollbar-color: #0B2261 #DFE9EB;
+}
+
+.col-md-4
+{
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+}
+
+.col-md-10
+{
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+}
+
+/* scrollbar */
+/* Chrome, Edge and Safari */
+*::-webkit-scrollbar {
+  height: 10px;
+  width: 10px;
+}
+*::-webkit-scrollbar-track {
+  border-radius: 5px;
+  background-color: #DFE9EB;
+}
+
+*::-webkit-scrollbar-track:hover {
+  background-color: #B8C0C2;
+}
+
+*::-webkit-scrollbar-track:active {
+  background-color: #B8C0C2;
+}
+
+*::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background-color: #0B2261;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background-color: #0d6efd;
+}
+
+*::-webkit-scrollbar-thumb:active {
+  background-color: #267cfe;
+}
+/* scrollbar */
+
+/* loader spinner */
+.custom-loader {
+  width: 60px;
+  height: 60px;
+  background: linear-gradient(#FF0000 0 0) bottom/100% 0% no-repeat #0B2261;
+  -webkit-mask: 
+    radial-gradient(circle at 60% 65%, #000 62%, #0000 65%) top left, 
+    radial-gradient(circle at 40% 65%, #000 62%, #0000 65%) top right, 
+    linear-gradient(to bottom left, #000 42%,#0000 43%) bottom left , 
+    linear-gradient(to bottom right,#000 42%,#0000 43%) bottom right;
+  -webkit-mask-size: 50% 50%;
+  -webkit-mask-repeat: no-repeat;
+  animation: p9 2s infinite linear;
+}
+
+@keyframes p9 {
+    90%,100% {background-size:100% 100%}
+}
+/* loader spinner */
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish&family=PT+Serif&family=Poppins:wght@200;400;500&display=swap');
+
+
+.piece
+{
+  background-color: #0d266c;
+  padding: 50px 60px;
+  border-radius: 20px;
+  color: #fff;
+  font-size: xx-large;
+  text-align: center;
+  cursor: pointer;
+  box-shadow: 0px 15px 5px -5px rgba(11, 34, 97, 0.5);
+}
+
+.piece:hover
+{
+  transition: 0.5s ease-out;
+  box-shadow: none;
+}
+
+.second-piece
+{
+  display: flex;
+  justify-content: space-around;
+}

@@ -1,0 +1,121 @@
+.profile-contain
+{
+    padding-top: 70px;
+}
+
+.profile-wrapper
+{
+    display: flex;
+    justify-content: center;
+}
+
+.profile-wropper
+{
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.profile-body
+{
+    display: flex;
+    padding: 30px;
+}
+
+.profile-img-place
+{
+    align-self: center;
+}
+
+.profile-img
+{
+    width: 300px;
+}
+
+.profile-header
+{
+    background-color: #0B2261 !important;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    align-items: center;
+}
+
+.profile-header-left
+{
+    display: flex;
+    align-items: center;
+}
+
+.profile-logo
+{
+    border-radius: 50%;
+    width: 50px;
+    margin-right: 10px;
+}
+
+.profile-name
+{
+    border-bottom: 1px solid black;
+    padding: 5px 0;
+}
+
+.profile-address
+{
+    border-bottom: 1px solid black;
+    padding: 5px 0;
+}
+
+.profile-email
+{
+    border-bottom: 1px solid black;
+    padding: 5px 0;
+}
+
+.profile-phone
+{
+    border-bottom: 1px solid black;
+    padding: 5px 0;
+}
+
+.profile-age
+{
+    border-bottom: 1px solid black;
+    padding: 5px 0;
+}
+
+.profile-spent
+{
+    border-bottom: 1px solid black;
+    padding: 5px 0;
+}
+
+.profile-balance
+{
+    border-bottom: 1px solid black;
+    padding: 5px 0;
+}
+
+.no-user
+{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.no-user-body
+{
+    text-align: center;
+}
+
+.no-user-img
+{
+    width: 300px;
+}
+
+.no-user-txt-place
+{
+    padding: 20px 0;
+}

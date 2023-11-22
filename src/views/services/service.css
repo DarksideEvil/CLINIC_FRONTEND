@@ -1,0 +1,64 @@
+.table-tana
+{
+    border: 1px solid #0B2261;
+    padding: 0;
+    border-radius: 5px;
+}
+
+.table-bodiy
+{
+    background-color: rgb(206, 206, 206);
+}
+
+.detail-btn {
+	box-shadow:inset 0px 1px 3px 0px #91b8b3;
+	background:linear-gradient(to bottom, #0B2261 5%, #0B2261 100%);
+	background-color:#0B2261;
+	border-radius:5px;
+	border:1px solid #566963;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:11px 23px;
+	text-decoration:none;
+	text-shadow:0px -1px 0px #2b665e;
+}
+.detail-btn:hover {
+	background:linear-gradient(to bottom, #6c7c7c 5%, #0B2261 100%);
+	background-color:#6c7c7c;
+}
+.detail-btn:active {
+	position:relative;
+	top:1px;
+}
+
+.bottoms
+{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.back-btn
+{
+    cursor: pointer;
+}
+
+.headerone
+{
+    background-color: #0B2261 !important;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    align-items: center;
+}
+
+.table-imag
+{
+    border-radius: 50%;
+    width: 50px;
+    margin-right: 10px;
+}

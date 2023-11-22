@@ -1,0 +1,29 @@
+.navbar
+{
+    background-color: #0B2261;
+    top: 0 !important;
+    position: sticky !important;
+    z-index: 50 !important;
+}
+
+.navbar-collapse
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+li
+{
+    list-style: none;
+}
+
+.nav-link
+{
+    font-size: 15px;
+    color: white !important;
+}
+
+.nav-link:hover
+{
+    color: #0d6efd !important;
+}
