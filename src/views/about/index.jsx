@@ -8,9 +8,9 @@ const About = () => {
         <>
             <Navbar />
             <div className="container pb-5">
-                <div class="wrapper">
+                <div className="wrapper">
                     <svg className='animated-logo'>
-                        <text x="50%" y="50%" dy=".35em" text-anchor="middle">
+                        <text x="50%" y="50%" dy=".35em" textAnchor="middle">
                             Medical Clinic
                         </text>
                     </svg>

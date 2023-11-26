@@ -9,7 +9,6 @@ const Profile = () => {
     const [validUser, setvalidUser] = useState(false);
     const [user, setUser] = useState({});
     const patient = JSON.parse(localStorage.getItem('user'));
-    console.log(patient);
     
     useEffect(() => {
         if (patient) {

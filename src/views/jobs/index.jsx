@@ -36,7 +36,7 @@ const Job = () => {
                 <div className="table my-5">
                     <div className="row d-flex justify-content-center">
                         {
-                            loading ? <div class="custom-loader"></div> :
+                            loading ? <div className="custom-loader"></div> :
                             job.map((item, indx) => {
                                 return (
                                     <div className="col-md-4 table-tana m-3" key={indx}>
