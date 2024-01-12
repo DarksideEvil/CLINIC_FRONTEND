@@ -1,1 +1,1 @@
-module.exports = 'http://localhost:10000/api';
+module.exports = 'https://privateclinic.onrender.com';
